@@ -1,0 +1,117 @@
+# French translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-03-21 08:31+0000\n"
+"PO-Revision-Date: 2024-03-21 08:38+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: main.py:67
+msgid "Logout"
+msgstr "Déconnexion"
+
+#: main.py:68
+msgid "Account"
+msgstr "Mon compte"
+
+#: main.py:69
+msgid "Success!"
+msgstr "Bravo !"
+
+#: main.py:70
+msgid "You are registered."
+msgstr "Vous êtes inscrit."
+
+#: main.py:71
+msgid "Please enter a valid email address."
+msgstr "Veuillez saisir une adresse e-mail valide."
+
+#: templates/index.html:23
+msgid "Login"
+msgstr "Connexion"
+
+#: templates/index.html:24
+msgid "Sign Up"
+msgstr "S'inscrire"
+
+#: templates/index.html:44
+msgid "Welcome to our Translation Agency"
+msgstr "Bienvenue sur le site de notre agence de traduction"
+
+#: templates/index.html:45
+msgid "We provide professional translation services"
+msgstr "Nous fournissons des services de traduction professionnels"
+
+#: templates/index.html:57
+msgid "Our Services"
+msgstr "Nos Services"
+
+#: templates/index.html:60
+msgid "Translation Services"
+msgstr "Services de Traduction"
+
+#: templates/index.html:61
+msgid "Accurate and professional translation in multiple languages."
+msgstr "Traduction précise et professionnelle dans plusieurs langues."
+
+#: templates/index.html:64
+msgid "Localization Services"
+msgstr "Services de Localisation"
+
+#: templates/index.html:65
+msgid "Adaptation of content to specific regions and cultures."
+msgstr "Adaptation du contenu à des régions et des cultures spécifiques."
+
+#: templates/index.html:68
+msgid "Interpretation Services"
+msgstr "Services d'Interprétation"
+
+#: templates/index.html:69
+msgid "Real-time language interpretation for meetings and events."
+msgstr "Interprétation simultanée pour réunions et événements."
+
+#: templates/index.html:72
+msgid "Proofreading Services"
+msgstr "Services de Relecture"
+
+#: templates/index.html:73
+msgid "Thorough review and correction of written content."
+msgstr "Révision approfondie et correction de contenu écrit."
+
+#: templates/index.html:76
+msgid "Transcription Services"
+msgstr "Services de Transcription"
+
+#: templates/index.html:77
+msgid "Conversion of audio or video recordings into written text."
+msgstr "Conversion d'enregistrements audio ou vidéo en texte écrit."
+
+#: templates/index.html:89
+msgid "Sign up for our Newsletter"
+msgstr "Inscrivez-vous à notre Newsletter"
+
+#: templates/index.html:91
+msgid "Enter your email"
+msgstr "Entrez votre e-mail"
+
+#: templates/index.html:92
+msgid "Subscribe"
+msgstr "S'abonner"
+
+msgid "© 2024 Translation Agency. All rights reserved."
+msgstr "© 2024 Agence de traduction. Tous droits réservés."
+
+msgid "Agency Logo"
+msgstr "Logo de l'agence"

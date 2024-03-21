@@ -1,0 +1,22 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f4f6;
+    padding:10px;
+}
+
+#page
+{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+.max-w-500 {
+    max-width: 500px;
+}
+
+.bg-accent-color
+{
+    background-color: #3b82f6 !important;
+    color: white;
+}

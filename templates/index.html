@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="{{ current_locale }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation Agency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&display=swap">
+
+</head>
+
+<body>
+    <div id="page">
+
+    <!-- Navigation Bar -->
+    <nav class="flex flex-col sm:flex-row justify-between items-center bg-transparent p-4">
+        <img src="{{ url_for('static', filename='images/logo.png') }}" alt="{{ _('Agency Logo') }}" class="h-20 mb-10">
+        
+        <div class="flex flex-col sm:flex-row sm:items-center sm:space-x-4">
+            <div class="mb-4 sm:mb-0">
+                <a href="/login" id="loginButton" class="bg-accent-color px-4 py-2 mr-6 rounded">{{ _('Login') }}</a>
+                <a href="/signup" id="signupButton" class="bg-accent-color px-4 py-2 rounded">{{ _('Sign Up') }}</a>
+            </div>
+
+            <div class="relative inline-flex w-32">
+                <select onchange="location = '/setlang?lang=' + this.value;" class="rounded border appearance-none py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline w-full">
+                    <option value="en" {{ 'selected' if get_locale() == 'en' else '' }}>English</option>
+                    <option value="fr" {{ 'selected' if get_locale() == 'fr' else '' }}>Français</option>
+                </select>
+                <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M5.305 7.695l4.545 4.545 4.546-4.545 1.414 1.414-5.96 5.96-5.96-5.96 1.415-1.414z"/></svg>
+                </div>   
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero mt-2">
+        <div class="container mx-auto">
+            <div class="sm:flex flex-col">
+                <div class="w-full sm:w-1/2">
+                    <h1 class="text-2xl font-bold my-6 text-blue-500">{{ _('Welcome to our Translation Agency') }}</h1>
+                    <p class="mb-10">{{ _('We provide professional translation services') }}</p>
+                </div>
+                <div class="w-full sm:w-1/2">
+                    <!-- Add image or other content here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services mt-8">
+        <div class="container mx-auto">
+            <h2 class="my-8 font-bold text-2xl text-center">{{ _('Our Services') }}</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+                <div class="service card bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-large font-bold my-2">{{ _('Translation Services') }}</h3>
+                    <p>{{ _('Accurate and professional translation in multiple languages.') }}</p>
+                </div>
+                <div class="service card bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-large font-bold my-2">{{ _('Localization Services') }}</h3>
+                    <p>{{ _('Adaptation of content to specific regions and cultures.') }}</p>
+                </div>
+                <div class="service card bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-large font-bold my-2">{{ _('Interpretation Services') }}</h3>
+                    <p>{{ _('Real-time language interpretation for meetings and events.') }}</p>
+                </div>
+                <div class="service card bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-large font-bold my-2">{{ _('Proofreading Services') }}</h3>
+                    <p>{{ _('Thorough review and correction of written content.') }}</p>
+                </div>
+                <div class="service card bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-large font-bold my-2">{{ _('Transcription Services') }}</h3>
+                    <p>{{ _('Conversion of audio or video recordings into written text.') }}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup Form -->
+    <section class="newsletter mt-20">
+        <div class="container mx-auto">
+            <div class="flex justify-center">
+                <div class="max-w-500">
+                    <div class="card bg-blue-100 rounded-lg shadow-md p-4 max-w-300">
+                        <h2 class="text-large font-bold mb-4">{{ _('Sign up for our Newsletter') }}</h2>
+                        <form class="flex">
+                            <input type="email" placeholder="{{ _('Enter your email') }}" class="border border-gray-300 rounded-l-lg px-4 py-2 w-full">
+                            <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white rounded-r-lg px-4 py-2 transition-all duration-300 transform hover:scale-105">{{ _('Subscribe') }}</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer mt-12 mb-10">
+        <div class="container mx-auto">
+            <p class="text-xs">{{ _('© 2024 Translation Agency. All rights reserved.')}}</p>
+        </div>
+    </footer>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    
+</body>
+
+</html>

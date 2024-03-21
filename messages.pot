@@ -1,0 +1,115 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-03-21 08:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: main.py:67
+msgid "Logout"
+msgstr ""
+
+#: main.py:68
+msgid "Account"
+msgstr ""
+
+#: main.py:69
+msgid "Success!"
+msgstr ""
+
+#: main.py:70
+msgid "You are registered."
+msgstr ""
+
+#: main.py:71
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: templates/index.html:19
+msgid "oneclickjob Logo"
+msgstr ""
+
+#: templates/index.html:23
+msgid "Login"
+msgstr ""
+
+#: templates/index.html:24
+msgid "Sign Up"
+msgstr ""
+
+#: templates/index.html:44
+msgid "Welcome to our Translation Agency"
+msgstr ""
+
+#: templates/index.html:45
+msgid "We provide professional translation services"
+msgstr ""
+
+#: templates/index.html:57
+msgid "Our Services"
+msgstr ""
+
+#: templates/index.html:60
+msgid "Translation Services"
+msgstr ""
+
+#: templates/index.html:61
+msgid "Accurate and professional translation in multiple languages."
+msgstr ""
+
+#: templates/index.html:64
+msgid "Localization Services"
+msgstr ""
+
+#: templates/index.html:65
+msgid "Adaptation of content to specific regions and cultures."
+msgstr ""
+
+#: templates/index.html:68
+msgid "Interpretation Services"
+msgstr ""
+
+#: templates/index.html:69
+msgid "Real-time language interpretation for meetings and events."
+msgstr ""
+
+#: templates/index.html:72
+msgid "Proofreading Services"
+msgstr ""
+
+#: templates/index.html:73
+msgid "Thorough review and correction of written content."
+msgstr ""
+
+#: templates/index.html:76
+msgid "Transcription Services"
+msgstr ""
+
+#: templates/index.html:77
+msgid "Conversion of audio or video recordings into written text."
+msgstr ""
+
+#: templates/index.html:89
+msgid "Sign up for our Newsletter"
+msgstr ""
+
+#: templates/index.html:91
+msgid "Enter your email"
+msgstr ""
+
+#: templates/index.html:92
+msgid "Subscribe"
+msgstr ""
+
