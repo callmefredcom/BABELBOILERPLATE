@@ -19,7 +19,7 @@ def is_logged_in():
 # this is the return statement that should be used in production
 #    return jsonify(is_logged_in=current_user.is_authenticated)
 # demo return statement
-    return jsonify(is_logged_in=False)
+    return jsonify(is_logged_in=True)
 
 def get_locale():
     # Check if the language query parameter is set and valid

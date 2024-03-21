@@ -1,5 +1,7 @@
 # Instructions to use Flask Babel 
 
+https://python-babel.github.io/flask-babel/
+
 ### Install Flask Babel
 
 ```
