@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, jsonify, session, redirect, g
 from flask_babel import Babel, _,lazy_gettext as _l, gettext
+
 import os
 from dotenv import load_dotenv
 
